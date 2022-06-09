@@ -42,6 +42,4 @@ public class DatosRegistro {
 		this.claveRepetida = claveRepetida;
 	}
 
-	
-	
 }
