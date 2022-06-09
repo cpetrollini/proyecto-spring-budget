@@ -16,6 +16,10 @@ import org.springframework.web.servlet.ModelAndView;
 public class ControladorRegistro {
 
 	private ServicioUsuario servicioUsuario;
+
+	public ControladorRegistro() {
+	}
+
 	@Autowired
 	public ControladorRegistro(ServicioUsuario servicioUsuario) {
 		this.servicioUsuario = servicioUsuario;

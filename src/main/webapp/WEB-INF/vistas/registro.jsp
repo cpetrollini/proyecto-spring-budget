@@ -15,9 +15,9 @@
             <h3 class="form-signin-heading">Nuevo Usuario</h3>
             <hr class="colorgraph"><br>
 
-            <form:input path="mail" class="form-control" />
-            <form:input path="clave" type="password" class="form-control"/>
-            <form:input path="claveRepetida" type="password" class="form-control"/>
+            <form:input path="mail" placeholder="Ingrese su email" class="form-control" />
+            <form:input path="clave" placeholder="Ingrese su clave" type="password" class="form-control"/>
+            <form:input path="claveRepetida" placeholder="Confirme su clave" type="password" class="form-control"/>
 
             <button id="btn-registrarme" class="btn btn-lg btn-primary btn-block" Type="Submit"/>Registrarme</button>
         </form:form>
